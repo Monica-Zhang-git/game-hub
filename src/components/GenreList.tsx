@@ -1,6 +1,7 @@
 import {
   Button,
   HStack,
+  Heading,
   Image,
   List,
   ListItem,
@@ -23,6 +24,7 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
 
   return (
     <SimpleGrid spacing={3}>
+      <Heading fontSize="2xl">Genres</Heading>
       {isLoading &&
         skeletons.map((skeleton) => <GenreListSkeleton key={skeleton} />)}
       <List>
@@ -35,8 +37,11 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
                   boxSize="32px"
                   overflow="hidden"
                   borderRadius={8}
+                  objectFit="cover"
                 />
                 <Button
+                  whiteSpace="normal"
+                  textAlign="left"
                   fontWeight={
                     genre.id === selectedGenre?.id ? "bold" : "normal"
                   }
