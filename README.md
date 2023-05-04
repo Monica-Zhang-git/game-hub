@@ -4,7 +4,7 @@ This is a tech demo video game hub app using RAWG Video Games Database API.
 
 It uses the [Vite.js](https://vitejs.dev/) framework with [React](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/).
 
-Quick to have a look at the app, click the link [Game Hub](https://game-hub-beige.vercel.app/)
+Quick to have a look at the app, click the vercle link [Game Hub](https://game-hub-beige.vercel.app/)
 
 
 ## Setup
