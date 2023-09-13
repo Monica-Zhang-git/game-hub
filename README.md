@@ -6,6 +6,7 @@ It is built with the [Vite.js](https://vitejs.dev/) framework with [React](https
 
 To quickly take a look at the app, click on the following Vercel link: [Game Hub](https://game-hub-beige.vercel.app/)
 
+<img width="1510" alt="image" src="https://github.com/Monica-Zhang-git/game-hub/assets/80732580/3dfdb5de-43ed-40db-9610-acf4f9a6c26f">
 
 ## Setup
 
